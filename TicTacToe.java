@@ -108,6 +108,7 @@ public class TicTacToe extends WindowAdapter implements ActionListener{
         
         //Frame utilities:
         frame.setSize(400,440);
+        frame.setResizable(false);
         frame.setBackground(Color.lightGray);
         frame.setLayout(null);
         frame.setVisible(true);
